@@ -26,7 +26,6 @@ build:
           echo "step 1!"
           echo "step 1 contd!"
           echo "step 1 contd again!"
-  steps:
     - script:
         name: echo step two
         code: |
