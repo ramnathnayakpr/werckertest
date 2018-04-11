@@ -23,10 +23,14 @@ build:
     - script:
         name: echo
         code: |
-          echo "hi there!"
-          echo "line 2"
+          echo "step 1!"
   steps:
     - script:
         name: echo
         code: |
-          echo "how are ya!"
+          echo "step 2!"
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "step 3!"  steps:
