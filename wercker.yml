@@ -5,11 +5,11 @@
 box: ubuntu
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
-services:
-    - postgres
+# services:
+    # - postgres
     # http://devcenter.wercker.com/docs/services/postgresql.html
 
-    - mongo
+    # - mongo
     # http://devcenter.wercker.com/docs/services/mongodb.html
 
 # This is the build pipeline. Pipelines are the core of wercker
@@ -21,6 +21,8 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
-        name: echo 1
+        name: echo step one
         code: |
           echo "step 1!"
+          echo "step 1 contd!"
+          echo "step 1 contd again!"
