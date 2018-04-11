@@ -21,16 +21,16 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
-        name: echo
+        name: echo 1
         code: |
           echo "step 1!"
   steps:
     - script:
-        name: echo
+        name: echo 2
         code: |
           echo "step 2!"
   steps:
     - script:
-        name: echo
+        name: echo 3
         code: |
           echo "step 3!"  steps:
