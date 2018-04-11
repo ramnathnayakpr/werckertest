@@ -23,4 +23,9 @@ build:
     - script:
         name: echo
         code: |
-          echo "hello world!"
+          echo "hello ram!"
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "how are ya!"
