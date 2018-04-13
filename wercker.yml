@@ -32,3 +32,4 @@ build:
           echo "step 2!"
           echo "step 2 contd!"
           echo "step 2 contd again!"
+          echo "Testing"
